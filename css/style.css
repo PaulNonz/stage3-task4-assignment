@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: -3%;
+}
+
+body{
+    width: 100%;
+}
+
+body p, h1, h2, h3, h4, h5, h6{
+    font-family:'Manrope', sans-serif;
+}
+
+.navbar{
+    height: 29.1495%;
+    background-color: rgb(255, 250, 250);
+    padding: 11.93px 0% 0% 0%;
+}
+
+body .DarkAsh-c{
+    background-color: #b8b8b8;
+}
+
+body .center-align{
+    text-align: center;
+}
+
+body .lightAsh-c{
+    background-color: #e2e6e9;
+}
+
+body .flex-display{
+    display: flex;  
+    justify-content: center;
+}
+
+body .container{
+    padding:0 15% ;
+    /* background-color: blue; */
+    display: flex ;
+    /* align-items : center; */
+    flex-direction: row;
+    /* justify-content: center; */ 
+}
+
+body .container2{
+    padding: 0.1%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar .container #logo-img{
+    height: 12px ; 
+    width: 74px;
+    margin: 10.9px 0 0 0;
+    /* background-color: red; */
+    position: absolute;
+}
+
+.navbar .container .left-section-text{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    margin: 9.27px 1% 0 39.7%;
+    width: 38.2%;
+}
+
+.navbar .container .left-section-text p{
+     font-size: 16px;
+     /* background-color: #61c4a1; */
+     font-style: normal;
+     font-weight: 600;
+     line-height: 28px;
+     color: black;
+}
+
+.navbar .container .line-demancation{
+    height:38px;
+    width: 1px;
+    background-color: black;
+    margin-right: 1.8%;
+}
+
+.navbar .container #call-img {
+    background-color: #61c4a1;
+    border-radius: 50%;
+    width: 26.52px;
+    height: 26.52px;
+    padding: 3px;
+    margin: 5.31px;
+}
+
+.navbar .container .contact-sec{
+    margin-left: 1.8% ;
+    line-height: -9%;
+    color: #1e1b1b;
+    font-weight: normal;
+    margin-bottom: 10.61px;
+    padding-bottom: 10.61px;
+}
+
+.navbar .container .contact-sec #bolder{
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+
+
+body .first-section{
+    padding-top: 110px;
+    height: 839px;
+}
+
+body .first-section .text-section{
+    padding-top: 100px;
+}
+
+body .first-section .text-section h1{
+    width: auto;
+    font-style: extra-bold;
+    font-size: 52px;
+    line-height: 74px;
+    letter-spacing: -3%;
+    vertical-align: top;
+    align-self: left;
+}
+
+body .first-section .picture-section img{
+    width: auto;
+    height: 69.51%;
+    background-color: #1e1b1b;
+}
+
+
+.card{
+    border: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.card1{
+    border:200px;
+    background-color: #ff6433;
+    text-align: center;
+}
+
+/* 
+body .img-portion #imgae-repair-services {
+   background-image: url('../img/car-garrage-img.png'); 
+   background-color: blue; 
+} */
