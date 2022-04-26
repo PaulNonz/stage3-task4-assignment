@@ -15,12 +15,12 @@ body p, h1, h2, h3, h4, h5, h6{
 
 .navbar{
     height: 29.1495%;
-    background-color: rgb(255, 250, 250);
+    background-color: rgb(255, 251, 251);
     padding: 11.93px 0% 0% 0%;
 }
 
 body .DarkAsh-c{
-    background-color: #b8b8b8;
+    background-color: #E2E6E9;
 }
 
 body .center-align{
@@ -28,7 +28,7 @@ body .center-align{
 }
 
 body .lightAsh-c{
-    background-color: #e2e6e9;
+    background-color:#F2F2F2;
 }
 
 body .flex-display{
@@ -38,11 +38,8 @@ body .flex-display{
 
 body .container{
     padding:0 15% ;
-    /* background-color: blue; */
     display: flex ;
-    /* align-items : center; */
     flex-direction: row;
-    /* justify-content: center; */ 
 }
 
 body .container2{
@@ -55,21 +52,19 @@ body .container2{
     height: 12px ; 
     width: 74px;
     margin: 10.9px 0 0 0;
-    /* background-color: red; */
     position: absolute;
 }
 
 .navbar .container .left-section-text{
     display: flex;
     flex-direction: row;
-    /* background-color: blueviolet; */
     margin: 9.27px 1% 0 39.7%;
     width: 38.2%;
+    
 }
 
 .navbar .container .left-section-text p{
-     font-size: 16px;
-     /* background-color: #61c4a1; */
+     font-size: 15px;
      font-style: normal;
      font-weight: 600;
      line-height: 28px;
@@ -101,52 +96,478 @@ body .container2{
     padding-bottom: 10.61px;
 }
 
-.navbar .container .contact-sec #bolder{
-    font-weight: 600 !important;
-    font-size: 18px;
+.navbar .container .contact-sec #bold{
+    font-weight: 500 !important;
+    font-size: 15px;
 }
 
+.navbar .container .contact-sec #bolder{
+    font-weight: 600 !important;
+    font-size: 17px;
+}
 
 body .first-section{
     padding-top: 110px;
-    height: 839px;
+    height: 680px;
+}
+
+body .first-section h1{
+    font-size: 44px !important;
+    width: 100% !important;
 }
 
 body .first-section .text-section{
-    padding-top: 100px;
+    padding-top: 80px;
+    width: 50%;
 }
 
 body .first-section .text-section h1{
-    width: auto;
+    width: 100%;
     font-style: extra-bold;
-    font-size: 52px;
-    line-height: 74px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 66px;
     letter-spacing: -3%;
     vertical-align: top;
     align-self: left;
+    margin-left: -0.7%;
+    padding-right: 10%;
+    margin-bottom: 10px;
 }
 
-body .first-section .picture-section img{
-    width: auto;
-    height: 69.51%;
-    background-color: #1e1b1b;
+body .first-section .text-section .open-text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #939191;
+    padding-top: 9%;
+    margin-left: 8%;
 }
 
+body .first-section .text-section .date-text{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #1E1B1B;
+    padding-top: 1.25%;
+    margin-left: 8%;
+}
+
+body .first-section .text-section button{
+    padding: 10px 17px;
+    background-color: #ff6433;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+body .first-section .picture-section{
+    width: 50%;
+    height: auto;
+    width: 50%;
+}
+
+ body .first-section .picture-section .contain{
+    position: relative;
+    text-align: center;
+}
+
+body .first-section .picture-section .contain img{
+    width: 90%;
+    height: auto;
+   margin-left: 4%;
+}
+
+body .first-section .picture-section .contain .text-part{
+    position: absolute;
+    top: 6px;
+    left: -25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 10%;
+    border-radius: 40%;
+    background-color: white;
+    padding: 2.4%;
+    width: 45%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    outline: black solid 10px;
+    outline-width: 100 ;
+    outline-color: rgba(248, 228, 228, 0.5) !important;
+}
+
+body .first-section .picture-section .text-part .border{
+    width: 55px;
+    height:55px;
+    background-color: #61c4a1;
+    border-radius: 50%;
+}
+
+body .first-section .picture-section .text-part p{
+    font-weight: 500;
+    padding-top: 8.5%;
+    padding-left: 3%;
+    font-weight: 700;
+}
+
+body .first-section .picture-section .text-part h6{
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center; 
+    color: white;   
+} 
+
+body .first-section .picture-section .text2{
+    background-color: #ff6433;
+    padding-top: 50px;
+}
+
+body .first-section .picture-section .contain .text2-part{
+    /* padding-right: -10px; */
+    background-color: #ff6433;
+    position: absolute;
+    bottom: 40px;
+    right: -8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 40%;
+    background-color: white;
+    padding: 2.4%;
+    width: 45%;
+    cursor: pointer;
+    outline: black solid 10px;
+    outline-width: 100 ;
+    outline-color: rgba(248, 228, 228, 0.5) !important;
+}
+
+body .second-section{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+body .second-section .first-text-section{
+    width: 50%;
+}
+
+body .second-section .first-text-section h3{
+    font-size: 36px;
+    font-weight: 800;
+    width: 80%;
+}
+
+body .second-section .first-text-section h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body .second-section .first-text-section p{
+    font-size: 12px;
+    font-weight: normal;
+    width: 55%;
+    padding-top: 6px;
+}
+
+body .second-section .first-text-section .first-portion{
+    padding-top: 36px;
+}
+
+body .second-section .first-text-section .first-portion .mind,
+body .second-section .first-text-section .second-portion .mind,
+body .second-section .first-text-section .third-portion .mind{
+    margin-left: 18px;
+    padding-bottom: 13px;
+}
+
+body .second-section .first-text-section .last-portion p {
+    margin-left: -205px;
+}
+
+body .second-section .first-text-section .last-portion a{
+    margin-left: -130px;
+    margin-top: 6px;
+}
+
+body .second-section .second-text-section{
+    width: 50%;
+    padding-left: 3%;
+}
+
+body .second-section .second-text-section button{
+    padding: 10px 17px;
+    background-color: #ff6433;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    margin-top: 45px;
+}
+
+button:hover{
+    box-shadow: 0 4px 6px 0 rgba(255, 66, 66, 0.6);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+
+button:hover span{
+    padding-right: 8px;
+    color: rgb(210, 245, 190);
+}
+
+button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+body .second-section .second-text-section h3{
+    margin-top: -2%;
+    padding-top: 2%;
+    font-size: 31.5px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 90%;
+    padding-bottom: 3%;
+}
+
+body .second-section .second-text-section input{
+    width: 100%;
+    height: 52px;
+    padding-left: 8%;
+}
+
+body .third-section{
+    padding-top: 128px ;
+    padding-bottom: 128px;
+}
+
+body .third-section .first-portion{
+    padding-top: 92px;
+}
+
+body .third-section .first-portion h3{
+    margin-top: -4%;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+    width: 70%;
+    padding-bottom: 1%;
+}
+
+body .third-section .first-portion p{
+    font-size: 12px;
+    font-weight: normal;
+    width: 62%;
+    padding-top: 4px;
+    opacity: rgba(0, 0, 0, 0.6);
+}
+
+body .third-section .second-portion .overlay{
+    background-color: rgba(21, 17, 224, 0.8);
+    background-image: url('../img/bottom-ellipse.png');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+    width: 42px;
+    height: 42px;
+    padding: 5%;
+    color: white;
+}
+
+body .third-section .second-portion .one{
+    margin-top: 3%;
+}
+
+body .third-section .second-portion .overlay h5{
+    text-align: center;
+}
+
+body .third-section .second-portion .one .overlay hr{
+    stroke: solid;
+    border: none;
+    border-top: 2.5px dotted #ff6433;
+    align-items: center;
+    transform: rotate(90deg);
+    margin-top: 22px;
+}
+
+body .third-section .second-portion .flex-divide1{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+body .third-section .second-portion{
+    padding-top: 2%;
+}
+
+body .third-section .second-portion h5{
+    font-size: 20px;
+}
+
+body .third-section .second-portion p{
+    font-weight: lighter;
+    margin-top: 1%;
+    width: 65%;
+    font-size: 14px;
+}
+
+body .fourth-section{
+    padding-top: 6.6667% !important;
+    margin-bottom: 128px;
+    padding-bottom: 6.6667% !important
+} 
+
+body .fourth-section h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body .fourth-section h3{
+    font-size: 36px;
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+    width: 42%;
+    margin-left: 28.5%;
+}
+
+.card-section{
+    padding-top: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .card{
-    border: 200px;
     background-color: white;
-    text-align: center;
+    width: 20%;
+    height: 200px;
+    margin-left: 0.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.14);
+    transition: 0.3s;
+    border-radius: 3%;
+}
+
+.card:hover{
+    box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card img, .card1 img{
+    padding-top: 27%;
 }
 
 .card1{
-    border:200px;
     background-color: #ff6433;
-    text-align: center;
+    width:20%;
+    height: 200px;
+    margin-left: 0.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.14);
+    transition: 0.3s;
+    border-radius: 3%;
+    color: white;
 }
 
-/* 
-body .img-portion #imgae-repair-services {
-   background-image: url('../img/car-garrage-img.png'); 
-   background-color: blue; 
-} */
+.card1:hover{
+    box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.container1{
+    padding-top: 2% ;
+}
+
+body .fourth-section .img-portion{
+    width: 100%;
+    height: 300px;
+    display: flexbox;
+    background-image: url('../img/car-garrage-img.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: ;
+}
+
+body .fourth-section .img-portion h3{
+    width: 70%;
+    background-color: #ff6433;
+    color: white;
+    padding-top: 7%;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+body .fourth-section .img-portion img{
+    width: 90%;
+    height: 50vh;
+}
+
+body .fourth-section .last-portion{
+    padding-top: 2.7%;
+    margin-left: -130px;
+    margin-bottom: -4%;
+}
+
+body .fourth-section .last-portion h2{
+    font-size: 32px;
+    color: blue;
+    font-weight: 800;
+}
+
+body .fourth-section .last-portion .one-p{
+    padding-left: 10%;
+    font-weight: 600;
+}
+
+.container2{
+    width: 100%;
+    display: inline-table;
+}
+
+body .fifth-section{
+    padding-bottom: 4% !important
+}
+
+
+body .fifth-section .ak{
+    font-size: 24px;
+    padding-bottom: 3%;
+}
+
+body .fifth-section .one-portion .second-1 img,
+body .fifth-section .one-portion .second-2 img{
+    width: auto;
+    height: 30%;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+body .fifth-section .one-portion .second img{
+    width: auto;
+    height: 30%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+body .fifth-section .one-portion .second{
+    padding: 0 49px;
+    cursor: pointer;
+}
+
+body .fifth-section .one-portion .second-1{
+    padding-left: -50px;
+    width: 110px;
+    cursor: pointer;
+}
