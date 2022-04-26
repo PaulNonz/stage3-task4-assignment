@@ -124,7 +124,7 @@ body .first-section .text-section{
 body .first-section .text-section h1{
     width: 100%;
     font-style: extra-bold;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 42px;
     line-height: 66px;
     letter-spacing: -3%;
@@ -148,7 +148,6 @@ body .first-section .text-section .open-text{
     font-weight: 500;
     line-height: 24px;
     color: #939191;
-    /* padding-top: 9%; */
     margin-left: 8%;
 }
 
@@ -157,7 +156,6 @@ body .first-section .text-section .date-text{
     font-weight: bold;
     line-height: 24px;
     color: #1E1B1B;
-    /* padding-top: 1.25%; */
     margin-left: 8%;
 }
 
@@ -231,7 +229,6 @@ body .first-section .picture-section .text2{
 }
 
 body .first-section .picture-section .contain .text2-part{
-    /* padding-right: -10px; */
     background-color: #ff6433;
     position: absolute;
     bottom: 40px;
