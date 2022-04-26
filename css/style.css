@@ -452,6 +452,7 @@ body .fourth-section h3{
     padding-top: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: 2%;
 }
 
 .card{
@@ -497,21 +498,22 @@ body .fourth-section .img-portion{
     width: 100%;
     height: 300px;
     display: flexbox;
-    background-image: url('../img/car-garrage-img.png');
+    background-image: url('../img/car-garrage-img.png'), url('../img/car-repair-img.png');
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: ;
+    background-position: left, right;
 }
 
 body .fourth-section .img-portion h3{
-    width: 70%;
+    width: 36%;
     background-color: #ff6433;
     color: white;
     padding-top: 7%;
     font-size: 26px;
     font-weight: 600;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: -33%;
 }
 
 body .fourth-section .img-portion img{
