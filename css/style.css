@@ -117,15 +117,15 @@ body .first-section h1{
 }
 
 body .first-section .text-section{
-    padding-top: 80px;
+    padding-top: 40px;
     width: 50%;
 }
 
 body .first-section .text-section h1{
     width: 100%;
     font-style: extra-bold;
-    font-weight: 800;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 42px;
     line-height: 66px;
     letter-spacing: -3%;
     vertical-align: top;
@@ -135,12 +135,20 @@ body .first-section .text-section h1{
     margin-bottom: 10px;
 }
 
+body .first-section .text-section .text-check{
+    margin-top: 20%;
+}
+
+body .first-section .text-section .text-check .text-0{
+    margin-top: -9%;
+}
+
 body .first-section .text-section .open-text{
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     color: #939191;
-    padding-top: 9%;
+    /* padding-top: 9%; */
     margin-left: 8%;
 }
 
@@ -149,7 +157,7 @@ body .first-section .text-section .date-text{
     font-weight: bold;
     line-height: 24px;
     color: #1E1B1B;
-    padding-top: 1.25%;
+    /* padding-top: 1.25%; */
     margin-left: 8%;
 }
 
@@ -184,10 +192,10 @@ body .first-section .picture-section .contain .text-part{
     left: -25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
     margin-top: 10%;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color: white;
     padding: 2.4%;
-    width: 45%;
+    width: 42%;
     border: none;
     text-align: center;
     cursor: pointer;
@@ -229,7 +237,7 @@ body .first-section .picture-section .contain .text2-part{
     bottom: 40px;
     right: -8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
-    border-radius: 40%;
+    border-radius: 30px;
     background-color: white;
     padding: 2.4%;
     width: 45%;
